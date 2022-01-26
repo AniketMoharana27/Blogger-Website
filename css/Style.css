@@ -8,6 +8,22 @@ html, body{
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar
+{
+  width: 12px;
+  background: #D3D3D3;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: #939799;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background: gray;
+}
+
 :root{
 
     /*      Theme colors        */
@@ -220,6 +236,7 @@ main .blog .blog-post{
 }
 
 main .blog-post .blog-content{
+    background-color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
